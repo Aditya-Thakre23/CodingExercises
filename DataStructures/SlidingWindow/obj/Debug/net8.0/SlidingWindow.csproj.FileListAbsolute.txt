@@ -1,0 +1,14 @@
+D:\ws\Data.Structures\DataStructures\SlidingWindow\bin\Debug\net8.0\SlidingWindow.exe
+D:\ws\Data.Structures\DataStructures\SlidingWindow\bin\Debug\net8.0\SlidingWindow.deps.json
+D:\ws\Data.Structures\DataStructures\SlidingWindow\bin\Debug\net8.0\SlidingWindow.runtimeconfig.json
+D:\ws\Data.Structures\DataStructures\SlidingWindow\bin\Debug\net8.0\SlidingWindow.dll
+D:\ws\Data.Structures\DataStructures\SlidingWindow\bin\Debug\net8.0\SlidingWindow.pdb
+D:\ws\Data.Structures\DataStructures\SlidingWindow\obj\Debug\net8.0\SlidingWindow.GeneratedMSBuildEditorConfig.editorconfig
+D:\ws\Data.Structures\DataStructures\SlidingWindow\obj\Debug\net8.0\SlidingWindow.AssemblyInfoInputs.cache
+D:\ws\Data.Structures\DataStructures\SlidingWindow\obj\Debug\net8.0\SlidingWindow.AssemblyInfo.cs
+D:\ws\Data.Structures\DataStructures\SlidingWindow\obj\Debug\net8.0\SlidingWindow.csproj.CoreCompileInputs.cache
+D:\ws\Data.Structures\DataStructures\SlidingWindow\obj\Debug\net8.0\SlidingWindow.dll
+D:\ws\Data.Structures\DataStructures\SlidingWindow\obj\Debug\net8.0\refint\SlidingWindow.dll
+D:\ws\Data.Structures\DataStructures\SlidingWindow\obj\Debug\net8.0\SlidingWindow.pdb
+D:\ws\Data.Structures\DataStructures\SlidingWindow\obj\Debug\net8.0\SlidingWindow.genruntimeconfig.cache
+D:\ws\Data.Structures\DataStructures\SlidingWindow\obj\Debug\net8.0\ref\SlidingWindow.dll
