@@ -5,36 +5,36 @@
         static void Main(string[] args)
         {
             //Code Executor for SlidingWindow programs
-            var arr = new int[] { 1, 3, -1, -3, 5, 3, 6, 7 };
-            var k = 3;
-            MaxInAllWindowsOfSizeK(arr, k);
+            FixedSizeSWProblems();
         }
 
-        static void MaxInAllWindowsOfSizeK(int[] arr, int k)
+        static void FixedSizeSWProblems()
         {
-            int i = 0, j = 0;
-            var deque = new LinkedList<int>();
-            deque.AddFirst(int.MinValue);
+            var arr = new int[] { 1, 3, -1, -3, 5, 3, 6, 7 };
+            var k = 3;
+            string s = "forxxorfxdofr";
+            string pattern = "for";
+            Console.WriteLine("*****Fixed-size sliding window problems*****");
+            Console.WriteLine("List of inputs: \narr: ");
+            foreach (var i in arr)
+                Console.Write(i + " ");
+            Console.WriteLine("\nk: " + k);
+            Console.WriteLine("Problem 1: Maximum sum for all subarrays of size k");
+            Console.WriteLine("Output: ");
+            FixedSizeSlidingWindowProblems.MaxSumSubarrayofSizeK(arr, k);
 
-            while (j < arr.Length)
-            {
-                while (deque.Any() && deque.First.Value < arr[j])
-                    deque.RemoveLast();
-                deque.AddLast(arr[j]);
+            Console.WriteLine("Problem 2: First negative element in each subarray of size k");
+            Console.WriteLine("Output: ");
+            FixedSizeSlidingWindowProblems.FirstNegativeInEveryWindowOfSizeK(arr, k);
 
-                if (j - i + 1 < k)
-                    j++;
-                else if (j - i + 1 == k)
-                {
-                    Console.WriteLine(deque.First.Value);
+            Console.WriteLine("Problem 3: Maximum element in each subarray of size k");
+            Console.WriteLine("Output: ");
+            FixedSizeSlidingWindowProblems.MaxInAllSubArraysOfSizeK(arr, k);
 
-                    if (deque.First.Value == arr[i])
-                        deque.RemoveFirst();
-
-                    i++;
-                    j++;
-                }
-            }
+            Console.WriteLine("Problem 4(Misc): Count occurrences of anagrams of a given pattern in a string.");
+            Console.WriteLine($"List of inputs: \ns: {s} \npattern: {pattern}");
+            Console.WriteLine("Output: ");
+            FixedSizeSlidingWindowProblems.CountOccurencesOfAnagram(s, pattern);
         }
     }
 }
